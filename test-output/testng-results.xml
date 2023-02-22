@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-21T16:30:01 IST" name="Suite" finished-at="2023-02-21T16:31:43 IST" duration-ms="102088">
+    <groups>
+    </groups>
+    <test started-at="2023-02-21T16:30:01 IST" name="Test" finished-at="2023-02-21T16:31:43 IST" duration-ms="102088">
+      <class name="com.tutorials.Qa.login.loginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:30:02 IST" name="setup" finished-at="2023-02-21T16:30:17 IST" duration-ms="14486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegisterWithAll()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:30:17 IST" name="RegisterWithAll" finished-at="2023-02-21T16:30:30 IST" duration-ms="13334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithAll -->
+        <test-method is-config="true" signature="destory()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:30:30 IST" name="destory" finished-at="2023-02-21T16:30:31 IST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destory -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:30:31 IST" name="setup" finished-at="2023-02-21T16:30:36 IST" duration-ms="5154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyRegisteringAccountWithExistingEmail()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:30:36 IST" name="VerifyRegisteringAccountWithExistingEmail" finished-at="2023-02-21T16:30:50 IST" duration-ms="13473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisteringAccountWithExistingEmail -->
+        <test-method is-config="true" signature="destory()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:30:50 IST" name="destory" finished-at="2023-02-21T16:30:51 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destory -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:30:51 IST" name="setup" finished-at="2023-02-21T16:30:54 IST" duration-ms="3180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifySearchWithValidProduct()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:30:54 IST" name="VerifySearchWithValidProduct" finished-at="2023-02-21T16:31:00 IST" duration-ms="6528" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"P LP3065"}
+  (Session info: chrome=110.0.5481.77)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-853Q29TQ', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6e95339d3149e27bd6b780223f0d1498, findElement {using=link text, value=P LP3065}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:64132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64132/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e95339d3149e27bd6b780223f0d1498]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"P LP3065"}
+  (Session info: chrome=110.0.5481.77)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-853Q29TQ', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6e95339d3149e27bd6b780223f0d1498, findElement {using=link text, value=P LP3065}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:64132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64132/devtoo..., se:cdpVersion: 110.0.5481.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e95339d3149e27bd6b780223f0d1498
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+at com.tutorials.Qa.login.loginTest.VerifySearchWithValidProduct(loginTest.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchWithValidProduct -->
+        <test-method is-config="true" signature="destory()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:31:01 IST" name="destory" finished-at="2023-02-21T16:31:02 IST" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destory -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:31:02 IST" name="setup" finished-at="2023-02-21T16:31:06 IST" duration-ms="3936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyingRegisterAccountWithoOutFillingAnyDetails()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:31:06 IST" name="VerifyingRegisterAccountWithoOutFillingAnyDetails" finished-at="2023-02-21T16:31:16 IST" duration-ms="10142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyingRegisterAccountWithoOutFillingAnyDetails -->
+        <test-method is-config="true" signature="destory()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:31:16 IST" name="destory" finished-at="2023-02-21T16:31:17 IST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destory -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:31:17 IST" name="setup" finished-at="2023-02-21T16:31:21 IST" duration-ms="3976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithValueCradential()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:31:21 IST" name="loginWithValueCradential" finished-at="2023-02-21T16:31:28 IST" duration-ms="7950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValueCradential -->
+        <test-method is-config="true" signature="destory()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:31:28 IST" name="destory" finished-at="2023-02-21T16:31:29 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destory -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:31:29 IST" name="setup" finished-at="2023-02-21T16:31:33 IST" duration-ms="3561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyREgisterWithProvedingAllTheFeilds()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:31:33 IST" name="verifyREgisterWithProvedingAllTheFeilds" finished-at="2023-02-21T16:31:43 IST" duration-ms="9901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyREgisterWithProvedingAllTheFeilds -->
+        <test-method is-config="true" signature="destory()[pri:0, instance:com.tutorials.Qa.login.loginTest@2e385cce]" started-at="2023-02-21T16:31:43 IST" name="destory" finished-at="2023-02-21T16:31:43 IST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destory -->
+      </class> <!-- com.tutorials.Qa.login.loginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
