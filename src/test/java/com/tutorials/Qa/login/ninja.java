@@ -1,5 +1,7 @@
 package com.tutorials.Qa.login;
 
-public class ninja {
+import org.testng.Assert;
 
+public class ninja {
+//assertions
 }
